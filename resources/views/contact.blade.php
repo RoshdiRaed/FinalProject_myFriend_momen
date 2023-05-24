@@ -97,7 +97,7 @@
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
             <div class="row">
-                @foreach ($n as $n)
+                {{-- @foreach ($n as $n) --}}
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <!-- Portfolio item 1 -->
                     <div class="portfolio-item">
@@ -105,15 +105,15 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="imge/{{$n->imge}}" alt="..." width="100%"/>
+                            {{-- <img class="img-fluid" src="imge/{{$n->imge}}" alt="..." width="100%"/> --}}
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">{{$n->name}}</div>
-                                <div class="portfolio-caption-subheading text-muted">{{$n->body}}</div>
+                            {{-- <div class="portfolio-caption-heading">{{$n->name}}</div>
+                                <div class="portfolio-caption-subheading text-muted">{{$n->body}}</div> --}}
                         </div>
                     </div>
                 </div>
-                @endforeach
+                {{-- @endforeach --}}
 
 
     </section>
